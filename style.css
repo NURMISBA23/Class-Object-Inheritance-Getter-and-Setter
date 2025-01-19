@@ -1,0 +1,125 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .shop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .seller, .buyer {
+    text-align: center;
+  }
+  
+  .seller-img, .buyer-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .products {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  .products h2, .cart h3, .payment h3 {
+    color: #555;
+    font-weight: 500;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-item {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .product-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .cart-item-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .cart, .payment {
+    margin-top: 20px;
+  }
+  
+  #money-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  #change-message {
+    color: #d9534f;
+    font-weight: bold;
+  }
+  
+  .fa-shopping-cart {
+    margin-right: 10px;
+  }

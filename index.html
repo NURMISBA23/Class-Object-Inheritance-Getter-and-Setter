@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Penjual dan Pembeli</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Interaksi Penjual dan Pembeli</h1>
+    <div class="shop">
+      <div class="seller">
+        <img src="images/seller.png" alt="Penjual" class="seller-img">
+        <h2>Penjual</h2>
+      </div>
+      <div class="products">
+        <h2 style="text-align: center;">Daftar Barang</h2>
+        <ul id="product-list"></ul>
+      </div>
+      <div class="buyer">
+        <img src="images/buyer.png" alt="Pembeli" class="buyer-img">
+        <h2>Pembeli</h2>
+        <div class="cart">
+          <h3><i class="fas fa-shopping-cart"></i> Keranjang Belanja</h3>
+          <ul id="cart-list"></ul>
+          <p>Total: Rp <span id="total-price">0</span></p>
+        </div>
+        <div class="payment">
+          <h3>Pembayaran</h3>
+          <input type="number" id="money-input" placeholder="Masukkan Uang (Rp)">
+          <button id="pay">Bayar Sekarang</button>
+          <p id="change-message"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
