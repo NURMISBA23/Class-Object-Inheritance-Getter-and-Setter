@@ -47,3 +47,6 @@ Aplikasi game sederhana yang mensimulasikan interaksi antara penjual dan pembeli
     │   ├── jeruk.jpg       # Gambar jeruk
     │   └── mangga.jpg      # Gambar mangga
     └── README.md           # Dokumentasi proyek
+
+## Screenshot
+   ![Deskripsi Gambar](path/to/gambar.png)
