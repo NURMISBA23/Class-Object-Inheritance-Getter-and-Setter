@@ -1,6 +1,6 @@
 # Interaksi Penjual dan Pembeli
 
-Aplikasi game sederhana yang mensimulasikan interaksi antara penjual dan pembeli. Pembeli dapat memilih barang, menambahkannya ke keranjang belanja, dan melakukan pembayaran. Aplikasi ini dibuat menggunakan HTML, CSS, dan JavaScript dengan konsep OOP (Object-Oriented Programming) seperti class, inheritance, getter, setter, dan interaksi antar object.
+Aplikasi  sederhana yang mensimulasikan interaksi antara penjual dan pembeli. Pembeli dapat memilih barang, menambahkannya ke keranjang belanja, dan melakukan pembayaran. Aplikasi ini dibuat menggunakan HTML, CSS, dan JavaScript dengan konsep OOP (Object-Oriented Programming) seperti class, inheritance, getter, setter, dan interaksi antar object.
 
 ## Fitur Utama
 
